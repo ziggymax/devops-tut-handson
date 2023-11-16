@@ -1,0 +1,15 @@
+{
+	"name": "handy-latex",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+
+	"customizations": {
+    	"vscode": {
+      		"extensions": [
+				"james-yu.latex-workshop",
+                "donjayamanne.git-extension-pack"
+			]
+    	}
+  }
+}
