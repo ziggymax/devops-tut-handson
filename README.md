@@ -1,2 +1,2 @@
-# devops-tut-handson
-A hands-on tutorial/guide for gettings started with DevOps, written in LaTeX
+# A Hands-On Tutorial and Guide to DevOps Concepts and Related Tools
+A hands-on tutorial/guide for gettings started with DevOps, written in LaTeX.
