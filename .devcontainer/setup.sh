@@ -43,6 +43,9 @@ apk --no-cache add \
   wget \
   xz
 
+# Used by svg package
+apk --no-cache add inkscape
+
 # Dependencies needed by latexindent
 apk --no-cache add \
   perl-unicode-linebreak \
