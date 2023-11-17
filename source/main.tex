@@ -1,17 +1,27 @@
+%!TeX options = --shell-escape
+
 \documentclass[12pt,a4paper]{report}
-    \usepackage{graphicx}\graphicspath{{graphics/}}
+    \usepackage{graphicx}
+    \usepackage{svg}
     \usepackage{subfiles}
     \usepackage[OT1]{fontenc}\renewcommand*\familydefault{\sfdefault}
 
-    \title{A Hands-On Tutorial to DevOps Concepts and Related Tools} % Sets article title
+    \graphicspath{{images/}}
+    \svgpath{{images/}}
+
+    \title{A Practical Tutorial on DevOps Concepts and Related Tools}
     \author{Steen Krøyer}
     \date{\today}
     
-\begin{document} % All begin commands must be paired with an end command somewhere
+\begin{document}
 
-\maketitle % creates title using information in preamble (title, author, date)
+\input{titlepage}
 
 \subfile{sections/introduction}
 
+\begin{figure}
+    \centering
+    \includesvg{devops-small}
+\end{figure}
 
-\end{document} % This is the end of the document
+\end{document}
