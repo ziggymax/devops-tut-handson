@@ -1,0 +1,18 @@
+%!TeX options = --shell-escape
+
+\documentclass[12pt,a4paper]{report}
+    \usepackage{graphicx}
+    \usepackage{svg}
+    \usepackage{subfiles}
+    \usepackage[OT1]{fontenc}\renewcommand*\familydefault{\sfdefault}
+
+    \graphicspath{{images/}}
+    \svgpath{{images/}}
+    
+\begin{document}
+
+\input{frontpage}
+
+\subfile{sections/introduction}
+
+\end{document}
