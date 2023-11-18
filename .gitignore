@@ -1,5 +1,6 @@
 ## Various stuff
 *.bak*
+output/
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
