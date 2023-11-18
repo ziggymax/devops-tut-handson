@@ -118,5 +118,7 @@
             ],
             "env": {}
         }
-    ]
+    ],
+    "latex-workshop.intellisense.update.aggressive.enabled": true,
+    "latex-workshop.latex.outDir": "%WORKSPACE_FOLDER%/output"
 }

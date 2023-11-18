@@ -1,17 +1,32 @@
 %!TeX options = --shell-escape
 
-\documentclass[12pt,a4paper]{report}
+\documentclass[12pt,a4paper,twoside]{report}
+    \usepackage[a4paper, total={165mm, 260mm}]{geometry}
     \usepackage{graphicx}
     \usepackage{svg}
     \usepackage{subfiles}
     \usepackage[OT1]{fontenc}\renewcommand*\familydefault{\sfdefault}
+    \usepackage[hidelinks]{hyperref}
 
+    \newcommand{\docTitle}{Tutorial on DevOps Concepts and Related Tools}
+    \newcommand{\docAuthor}{Steen Krøyer}
+
+    \hypersetup{
+        pdftitle=\docTitle{},
+        pdfauthor=\docAuthor{},
+        pdfpagemode=UseOutlines,
+    }
     \graphicspath{{images/}}
     \svgpath{{images/}}
-    
+
+
 \begin{document}
 
 \input{frontpage}
+
+\tableofcontents
+\listoffigures
+\newpage
 
 \subfile{sections/introduction}
 
